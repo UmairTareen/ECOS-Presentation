@@ -1,0 +1,16 @@
+\frametitle{Conclusion and Future Work}
+
+  \textbf{Conclusion:}
+    \begin{itemize}
+      \item {Integration costs computations can be made in a simple way using existing modeling tools.}
+      \item {Individually, these costs can be very high for some VRE technologies like solar.}
+      \item {Policy measures have a big impact on VRE integration; when combined, integration costs remain marginal even above 80\% penetration.}
+    \end{itemize}
+
+  \textbf{Future Work:}
+    \begin{itemize}
+      \item Extending the study on regional level.
+       \item Comparison of results with other studies.
+      \item Sensitivity analysis.
+
+    \end{itemize}
