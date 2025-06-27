@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.5.27)  27 JUN 2025 12:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2025.5.27)  27 JUN 2025 14:56
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1593,20 +1593,54 @@ Package pdftex.def Info: logos/uliege_small.pdf  used on input line 252.
 (pdftex.def)             Requested size: 20.0pt x 22.68782pt.
 [19
 
- <./images//cossts.png>] [20
+ <./images//cossts.png>]
+<./images//valcoe.png, id=204, 689.57625pt x 508.90125pt>
+File: ./images//valcoe.png Graphic file (type png)
+<use ./images//valcoe.png>
+Package pdftex.def Info: ./images//valcoe.png  used on input line 261.
+(pdftex.def)             Requested size: 245.83264pt x 181.4183pt.
+
+Overfull \vbox (7.19849pt too high) detected at line 261
+ []
+
+File: logos/uliege_small.pdf Graphic file (type pdf)
+<use logos/uliege_small.pdf>
+Package pdftex.def Info: logos/uliege_small.pdf  used on input line 261.
+(pdftex.def)             Requested size: 20.0pt x 22.68782pt.
+[20
+
+ <./images//valcoe.png>]
+<./images//valcoe_over.png, id=211, 1084.05pt x 722.7pt>
+File: ./images//valcoe_over.png Graphic file (type png)
+<use ./images//valcoe_over.png>
+Package pdftex.def Info: ./images//valcoe_over.png  used on input line 270.
+(pdftex.def)             Requested size: 245.83264pt x 163.87967pt.
+
+Overfull \vbox (5.55777pt too high) detected at line 270
+ []
+
+File: logos/uliege_small.pdf Graphic file (type pdf)
+<use logos/uliege_small.pdf>
+Package pdftex.def Info: logos/uliege_small.pdf  used on input line 270.
+(pdftex.def)             Requested size: 20.0pt x 22.68782pt.
+[21
+
+ <./images//valcoe_over.png>] [22
 
 ]
 \openout4 = `uliege_beamer_presentation.vrb'.
 
  (./uliege_beamer_presentation.vrb)
+Overfull \vbox (9.51099pt too high) detected at line 294
+ []
+
 File: logos/uliege_small.pdf Graphic file (type pdf)
 <use logos/uliege_small.pdf>
-Package pdftex.def Info: logos/uliege_small.pdf  used on input line 275.
+Package pdftex.def Info: logos/uliege_small.pdf  used on input line 294.
 (pdftex.def)             Requested size: 20.0pt x 22.68782pt.
- [21
+[23
 
-]
-[22
+] [24
 
 ]
 \tf@nav=\write6
@@ -1624,10 +1658,10 @@ ged.
 (rerunfilecheck)             Checksum: E18F0D9E4F3DAFFEABB4E9341FA6EF1C;561.
  ) 
 Here is how much of TeX's memory you used:
- 29710 strings out of 479533
- 610173 string characters out of 5876205
+ 29732 strings out of 479533
+ 610633 string characters out of 5876205
  835276 words of memory out of 5000000
- 46995 multiletter control sequences out of 15000+600000
+ 47011 multiletter control sequences out of 15000+600000
  624752 words of font info for 77 fonts, out of 8000000 for 9000
  417 hyphenation exceptions out of 8191
  128i,15n,122p,1883b,969s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1636,10 +1670,10 @@ sr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSansPro-Regul
 ar.pfb></usr/share/texlive/texmf-dist/fonts/type1/adobe/sourcesanspro/SourceSan
 sPro-Semibold.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/sy
 mbols/msam10.pfb>
-Output written on uliege_beamer_presentation.pdf (22 pages, 4091930 bytes).
+Output written on uliege_beamer_presentation.pdf (24 pages, 4300981 bytes).
 PDF statistics:
- 256 PDF objects out of 1000 (max. 8388607)
- 181 compressed objects within 2 object streams
- 55 named destinations out of 1000 (max. 500000)
- 213 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 271 PDF objects out of 1000 (max. 8388607)
+ 190 compressed objects within 2 object streams
+ 59 named destinations out of 1000 (max. 500000)
+ 223 words of extra memory for PDF output out of 10000 (max. 10000000)
 
