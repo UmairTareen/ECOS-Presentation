@@ -3,7 +3,7 @@
 %\usepackage[faculty=apps,titlelogo=none,slidelogo=none]{ULiege-trigon}
 
 % Document metadata
-\subtitle{\vspace{-3em}Quantifying Integration Costs of Variable Renewable Energy Technologies in European Energy Systems}
+\subtitle{\vspace{-3em}Integration Costs of Variable Renewable Energy Technologies in European Energy Systems}
 \author{Muhammad Umair Tareen, Sylvain Quoilin}
 \institute{University of Liège}
 \date{ECOS, Paris - June 30, 2025}
@@ -108,16 +108,36 @@ when integrating VRE}
 \end{frame}
 
 
-\setbeamertemplate{frame footer}{} % Clear footer for next slides
+\setbeamertemplate{frame footer}{\parbox[c][2.5ex][c]{\dimexpr\textwidth-5em\relax}{\centering\vspace*{0mm}\tiny Image credentials: Jens C Thomsen\hfill}}
 \begin{frame}
 \frametitle{Introduction}
-\framesubtitle{Methodologies used to compute integration costs (literature review)}
+\framesubtitle{challenges of managing the variability and uncertainty of VRE}
   \begin{figure}
     \centering
-    \includegraphics[width=0.7\textwidth]{mehod.png}
+    \includegraphics[width=0.6\textwidth]{duck.png}
   \end{figure}
 \end{frame}
 
+%\setbeamertemplate{frame footer}{\parbox[c][2.5ex][c]{\dimexpr\textwidth-5em\relax}{\centering\vspace*{0mm}\tiny Image credentials: Australia NEM\hfill}}
+%\begin{frame}
+%\frametitle{Introduction}
+%\framesubtitle{Price cannibalisation and decreased market value}
+ % \begin{figure}
+  %  \centering
+    %\includegraphics[width=0.55\textwidth]{cann.png}
+ % \end{figure}
+%\end{frame}
+
+\setbeamertemplate{frame footer}{\parbox[c][2.5ex][c]{\dimexpr\textwidth-5em\relax}{\centering\vspace*{0mm}\tiny Image credentials: IEA\hfill}}
+\begin{frame}{\insertsectionhead}
+\frametitle{Introduction}
+\framesubtitle{IEA- VALCOE: Assessing the true economic competitiveness of technologies}
+\begin{figure}
+    \centering
+    \includegraphics[width=0.58\textwidth]{valcoe.png}
+  \caption*{\small A simplified economic model, not a full system analysis tool.}
+  \end{figure}
+\end{frame}
 %==============================================
 \section{Methodology}
 %==============================================
@@ -133,7 +153,7 @@ when integrating VRE}
 
 \setbeamertemplate{frame footer}{\parbox[c][2.5ex][c]{\dimexpr\textwidth-5em\relax}{\centering\vspace*{1mm}\tiny Image credentials: PyPSA-Eur\hfill}}
 \begin{frame}[fragile]
-  \frametitle{Why PyPSA-Eur?}
+  \frametitle{PyPSA-Eur}
   \begin{figure}
     \centering
     \includegraphics[width=0.9\textwidth]{s12s186.jpg}
@@ -145,7 +165,7 @@ when integrating VRE}
 
 \begin{figure}
     \centering
-    \includegraphics[width=0.65\textwidth]{method.png}
+    \includegraphics[width=0.95\textwidth]{mtth.png}
   \end{figure}
 \end{frame}
 
@@ -162,7 +182,7 @@ when integrating VRE}
 
 \setbeamertemplate{frame footer}{} % Clear footer for next slides
 \begin{frame}{\insertsectionhead}
-\framesubtitle{Example: Solar Scenario}
+\framesubtitle{Example: Solar integration costs}
 \begin{figure}
     \centering
     \includegraphics[width=0.9\textwidth]{cons.png}
@@ -173,12 +193,10 @@ when integrating VRE}
 
 \setbeamertemplate{frame footer}{} % Clear footer for next slides
 \begin{frame}{\insertsectionhead}
-\framesubtitle{Example: Solar Scenario}
+\framesubtitle{Example: Solar integration costs}
 \begin{figure}
     \centering
     \includegraphics[width=0.7\textwidth]{metr.png}
-  
-  \caption*{\small Straight forward computation of integration costs}
   \end{figure}
 \end{frame}
 % End of section Energy Sufficiency
@@ -191,12 +209,12 @@ when integrating VRE}
 % SLIDE 9
 %----------------------------------------------------------------------------------------
 \begin{frame}[fragile]
-  \frametitle{Scenarios}
+  \frametitle{Scenario: net-zero by 2050}
 
-  \textbf{5 Scenarios:} Solar, Onshore Wind, Offshore Wind, VRE, Nuclear \\
+  4 technologies considered for the integration cost assessment \\
   \textbf{Considered Nodes:} BE, FR, NL, GB, DE \\
   
-  \textbf{Optimisation:} Greenfield and brownfield
+  \textbf{Optimisation:} Greenfield
 
   \vspace{1em} % Adds vertical space
 
@@ -206,7 +224,7 @@ when integrating VRE}
       \begin{itemize}
          \item \makebox[\linewidth][l]{Carbon budget: 2030 (–55\%), 2040 (–85\%), 2050 (net zero)}
         \item \makebox[\linewidth][l]{Current demand projections + expected efficiency improvements}
-        \item \makebox[\linewidth][l]{Transmission lines espansion, 50\% in each planning horizon}
+        \item \makebox[\linewidth][l]{Transmission lines espansion,max  50\%}
         \item \makebox[\linewidth][l]{Increased EV shares upto 85\% by 2050}
         \item CCS is allowed
       \end{itemize}
@@ -224,7 +242,7 @@ when integrating VRE}
 \section{Results}
 %==============================================
 \begin{frame}{\insertsectionhead}
-\framesubtitle{Integration costs in all scenarios}
+\framesubtitle{Integration costs}
 \begin{figure}
     \centering
     \includegraphics[width=0.65\textwidth]{overnight_inti.png}
@@ -251,46 +269,21 @@ when integrating VRE}
   \end{figure}
 \end{frame}
 
-\begin{frame}{\insertsectionhead}
-\frametitle{IEA- VALCOE}
-\begin{figure}
-    \centering
-    \includegraphics[width=0.6\textwidth]{valcoe.png}
-  
-  \end{figure}
-\end{frame}
-
-\begin{frame}{\insertsectionhead}
-\framesubtitle{Comaprison with VALCOE}
-\begin{figure}
-    \centering
-    \includegraphics[width=0.6\textwidth]{valcoe_over.png}
-  
-  \end{figure}
-\end{frame}
 %==============================================
 \section{Conclusions}
 %==============================================
 
 % SLIDE 19
 \begin{frame}[fragile]
-  \frametitle{Conclusion and Future Work}
+  \frametitle{Conclusion}
 
   \textbf{Conclusion:}
     \begin{itemize}
       \item {Integration costs computations can be made in a simple way using existing modeling tools.}
-      \item {Individually, these costs can be very high for some VRE technologies like solar.}
-      \item {Policy measures have a big impact on VRE integration; when combined, integration costs remain marginal even above 80\% penetration.}
+      \item {Solar integrations costs are 55 Euros/MWh compared to 13 Euros/MWh for nuclear by 2050.}
+      \item {Complementarity and the diversity of different renewable energy sources; when combined, integration costs remain marginal even above 80\% penetration.}
     \end{itemize}
 
-  \textbf{Future Work:}
-    \begin{itemize}
-      \item Extending the study on regional level.
-      \item Considering the operational constraints of powerplants.
-       \item Comparison of results with other studies.
-      \item Sensitivity analysis.
-      
-    \end{itemize}
 \end{frame}
 
 

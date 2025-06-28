@@ -1,17 +1,9 @@
-\frametitle{Conclusion and Future Work}
+\frametitle{Conclusion}
 
   \textbf{Conclusion:}
     \begin{itemize}
       \item {Integration costs computations can be made in a simple way using existing modeling tools.}
-      \item {Individually, these costs can be very high for some VRE technologies like solar.}
-      \item {Policy measures have a big impact on VRE integration; when combined, integration costs remain marginal even above 80\% penetration.}
+      \item {Solar integrations costs are 55 Euros/MWh compared to 13 Euros/MWh for nuclear by 2050.}
+      \item {Complementarity and the diversity of different renewable energy sources; when combined, integration costs remain marginal even above 80\% penetration.}
     \end{itemize}
 
-  \textbf{Future Work:}
-    \begin{itemize}
-      \item Extending the study on regional level.
-      \item Considering the operational constraints of powerplants.
-       \item Comparison of results with other studies.
-      \item Sensitivity analysis.
-
-    \end{itemize}
